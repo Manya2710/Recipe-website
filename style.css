@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(41, 25, 9);
+    color: whitesmoke;
+}
+
+nav{
+    background: black;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.searchBtn, .searchBox{
+    border: none;
+    background-color: rgb(211, 209, 209);
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.searchBtn{
+    background-color: rgb(235, 131, 28);
+    cursor: pointer;   
+}
+/* main section */
+.container{
+    text-align: center;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    grid-gap: 80px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    place-items: center;
+}
+
+.recipe{
+    background-color: rgb(211, 209, 209);
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    color: rgb(63, 51, 51);
+    box-shadow: 0 5px 10px black;
+    border-radius: 5px;
+    font-size: large;
+    max-width: 300px;
+}
+
+.recipe img{
+    height: 300px;
+    
+    border-radius: 5px;
+}
+
+.recipe view{
+    background-color: rgb(211, 209, 209);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* popup */
+.popUp{
+    background-color: rgb(125, 84, 22);
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    height: 60%;
+    transition: all 0.5s ease-in-out;
+    font-size: 20px;
+    overflow-y: scroll;
+    z-index: 50;
+    
+}
+
+i{
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.blur{
+    filter: blur(10px);
+    pointer-events: none;
+}
+
+.recipe-content{
+    padding: 60px;
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width:800px) {
+    nav{
+        flex-direction: column;
+    }
+    .search{
+        margin-top: 20px;
+    }
+}
