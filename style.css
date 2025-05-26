@@ -4,12 +4,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-color: rgb(41, 25, 9);
-    color: whitesmoke;
+    background-color: rgb(179, 216, 247); 
+    color: rgb(51, 51, 51);
 }
 
 nav{
-    background: black;
+    background: rgb(120, 185, 238);
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ h1{
 }
 
 .searchBtn{
-    background-color: rgb(235, 131, 28);
+    background-color: rgb(179, 216, 247); 
     cursor: pointer;   
 }
 /* main section */
@@ -73,7 +73,8 @@ h1{
 
 /* popup */
 .popUp{
-    background-color: rgb(125, 84, 22);
+    background-color: rgb(179, 216, 247); 
+    color:rgb(51, 51, 51);
     display: none;
     position: fixed;
     top: 20%;
