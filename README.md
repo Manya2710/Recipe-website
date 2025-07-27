@@ -1,2 +1,3 @@
 # Recipe-website
-The Recipe Website is a responsive platform built using HTML, CSS, and JavaScript, integrated with TheMealDB API to fetch and display recipe details.  
+## This website does not exist.Kindly visit https://github.com/Manya2710/RecipeFinder/tree/main to view the running website.
+Thank you
